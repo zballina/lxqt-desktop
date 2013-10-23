@@ -30,14 +30,6 @@ desktopplugin.h
 razordesktopapplication.h
 /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/src/razordesktopapplication.h
 
-/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/src/razordesktopapplication.cpp
-razordesktopapplication.h
-/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/src/razordesktopapplication.h
-desktopplugin.h
-/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/src/desktopplugin.h
-X11/Xlib.h
--
-
 /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/src/razordesktopapplication.h
 lxqt/lxqtapplication.h
 -

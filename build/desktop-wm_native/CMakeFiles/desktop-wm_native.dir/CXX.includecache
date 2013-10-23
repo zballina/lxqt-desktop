@@ -12,49 +12,31 @@ QtGui/qwindowdefs.h
 lxqt/lxqtsettings.h
 -
 
-/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-wm_native/razordeskicon.h
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-wm_native/../../desktop-wm_native/razordeskicon.h
 QAbstractButton
 -
 desktopplugin.h
-/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-wm_native/desktopplugin.h
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-wm_native/../../desktop-wm_native/desktopplugin.h
 qtxdg/xdgdesktopfile.h
 -
 
-/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-wm_native/razordeskman.cpp
-QApplication
--
-QString
--
-QDesktopServices
--
-QDesktopWidget
--
-QDirIterator
--
-QVariant
--
-QX11Info
--
-QtDebug
--
-X11/Xatom.h
--
-lxqt/lxqtsettings.h
--
-lxqt/lxqtxfitman.h
--
-razordeskman.h
-/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-wm_native/razordeskman.h
-
-/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-wm_native/razordeskman.h
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-wm_native/../../desktop-wm_native/razordeskman.h
 QFileSystemWatcher
 -
 razordeskicon.h
-/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-wm_native/razordeskicon.h
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-wm_native/../../desktop-wm_native/razordeskicon.h
 lxqt/lxqtsettings.h
 -
 desktopplugin.h
 -
+
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-wm_native/moc_razordeskicon.cxx
+../../desktop-wm_native/razordeskicon.h
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-wm_native/../../desktop-wm_native/razordeskicon.h
+
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-wm_native/moc_razordeskman.cxx
+../../desktop-wm_native/razordeskman.h
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-wm_native/../../desktop-wm_native/razordeskman.h
 
 /usr/include/qt4/Gentoo/gentoo-qconfig.h
 
@@ -76,10 +58,6 @@ iterator
 list
 -
 
-/usr/include/qt4/QtCore/QDirIterator
-qdiriterator.h
-/usr/include/qt4/QtCore/qdiriterator.h
-
 /usr/include/qt4/QtCore/QFileSystemWatcher
 qfilesystemwatcher.h
 /usr/include/qt4/QtCore/qfilesystemwatcher.h
@@ -91,18 +69,6 @@ qpoint.h
 /usr/include/qt4/QtCore/QPointF
 qpoint.h
 /usr/include/qt4/QtCore/qpoint.h
-
-/usr/include/qt4/QtCore/QString
-qstring.h
-/usr/include/qt4/QtCore/qstring.h
-
-/usr/include/qt4/QtCore/QVariant
-qvariant.h
-/usr/include/qt4/QtCore/qvariant.h
-
-/usr/include/qt4/QtCore/QtDebug
-qdebug.h
-/usr/include/qt4/QtCore/qdebug.h
 
 /usr/include/qt4/QtCore/qalgorithms.h
 QtCore/qglobal.h
@@ -264,12 +230,6 @@ QtCore/qatomic_bootstrap.h
 QtCore/qatomic_arch.h
 -
 
-/usr/include/qt4/QtCore/qbuffer.h
-QtCore/qiodevice.h
--
-QtCore/qbytearray.h
--
-
 /usr/include/qt4/QtCore/qbytearray.h
 QtCore/qatomic.h
 -
@@ -290,24 +250,6 @@ QtCore/qglobal.h
 Gentoo/gentoo-qconfig.h
 -
 
-/usr/include/qt4/QtCore/qcontiguouscache.h
-QtCore/qatomic.h
--
-limits.h
--
-new
--
-
-/usr/include/qt4/QtCore/qcoreapplication.h
-QtCore/qobject.h
--
-QtCore/qcoreevent.h
--
-QtCore/qeventloop.h
--
-QtCore/qstringlist.h
--
-
 /usr/include/qt4/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
@@ -324,46 +266,6 @@ QtCore/qiodevice.h
 QtCore/qglobal.h
 -
 
-/usr/include/qt4/QtCore/qdebug.h
-QtCore/qalgorithms.h
--
-QtCore/qhash.h
--
-QtCore/qlist.h
--
-QtCore/qmap.h
--
-QtCore/qpair.h
--
-QtCore/qtextstream.h
--
-QtCore/qstring.h
--
-QtCore/qvector.h
--
-QtCore/qset.h
--
-QtCore/qcontiguouscache.h
--
-
-/usr/include/qt4/QtCore/qdir.h
-QtCore/qstring.h
--
-QtCore/qfileinfo.h
--
-QtCore/qstringlist.h
--
-QtCore/qshareddata.h
--
-
-/usr/include/qt4/QtCore/qdiriterator.h
-QtCore/qdir.h
--
-
-/usr/include/qt4/QtCore/qeventloop.h
-QtCore/qobject.h
--
-
 /usr/include/qt4/QtCore/qfeatures.h
 
 /usr/include/qt4/QtCore/qfile.h
@@ -374,14 +276,6 @@ QtCore/qstring.h
 stdio.h
 -
 f32file.h
--
-
-/usr/include/qt4/QtCore/qfileinfo.h
-QtCore/qfile.h
--
-QtCore/qlist.h
--
-QtCore/qshareddata.h
 -
 
 /usr/include/qt4/QtCore/qfilesystemwatcher.h
@@ -466,14 +360,6 @@ limits.h
 string.h
 -
 
-/usr/include/qt4/QtCore/qlocale.h
-QtCore/qvariant.h
--
-QtCore/qstring.h
--
-QtCore/qobjectdefs.h
--
-
 /usr/include/qt4/QtCore/qmap.h
 QtCore/qatomic.h
 -
@@ -532,10 +418,6 @@ QtCore/qdatastream.h
 
 /usr/include/qt4/QtCore/qpoint.h
 QtCore/qnamespace.h
--
-
-/usr/include/qt4/QtCore/qpointer.h
-QtCore/qobject.h
 -
 
 /usr/include/qt4/QtCore/qrect.h
@@ -634,28 +516,6 @@ Qt3Support/q3valuelist.h
 QtCore/qstring.h
 -
 
-/usr/include/qt4/QtCore/qtextcodec.h
-QtCore/qstring.h
--
-QtCore/qlist.h
--
-
-/usr/include/qt4/QtCore/qtextstream.h
-QtCore/qiodevice.h
--
-QtCore/qstring.h
--
-QtCore/qchar.h
--
-QtCore/qlocale.h
--
-QtCore/qscopedpointer.h
--
-QtCore/qtextcodec.h
--
-stdio.h
--
-
 /usr/include/qt4/QtCore/qvariant.h
 QtCore/qatomic.h
 -
@@ -700,25 +560,9 @@ QtCore/QPoint
 qabstractbutton.h
 /usr/include/qt4/QtGui/qabstractbutton.h
 
-/usr/include/qt4/QtGui/QApplication
-qapplication.h
-/usr/include/qt4/QtGui/qapplication.h
-
-/usr/include/qt4/QtGui/QDesktopServices
-qdesktopservices.h
-/usr/include/qt4/QtGui/qdesktopservices.h
-
-/usr/include/qt4/QtGui/QDesktopWidget
-qdesktopwidget.h
-/usr/include/qt4/QtGui/qdesktopwidget.h
-
 /usr/include/qt4/QtGui/QPlatformWindow
 qplatformwindow_qpa.h
 /usr/include/qt4/QtGui/qplatformwindow_qpa.h
-
-/usr/include/qt4/QtGui/QX11Info
-qx11info_x11.h
-/usr/include/qt4/QtGui/qx11info_x11.h
 
 /usr/include/qt4/QtGui/qabstractbutton.h
 QtGui/qicon.h
@@ -726,28 +570,6 @@ QtGui/qicon.h
 QtGui/qkeysequence.h
 -
 QtGui/qwidget.h
--
-
-/usr/include/qt4/QtGui/qapplication.h
-QtCore/qcoreapplication.h
--
-QtGui/qwindowdefs.h
--
-QtCore/qpoint.h
--
-QtCore/qsize.h
--
-QtGui/qcursor.h
--
-QtGui/qdesktopwidget.h
--
-QtGui/qwidget.h
--
-QtGui/qpalette.h
--
-QtGui/qrgb.h
--
-QtGui/qtransportauth_qws.h
 -
 
 /usr/include/qt4/QtGui/qbrush.h
@@ -782,14 +604,6 @@ QtCore/qstringlist.h
 QtCore/qpoint.h
 -
 QtGui/qwindowdefs.h
--
-
-/usr/include/qt4/QtGui/qdesktopservices.h
-QtCore/qstring.h
--
-
-/usr/include/qt4/QtGui/qdesktopwidget.h
-QtGui/qwidget.h
 -
 
 /usr/include/qt4/QtGui/qdrag.h
@@ -1006,22 +820,6 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-/usr/include/qt4/QtGui/qtransportauth_qws.h
-QtCore/qglobal.h
--
-QtCore/qobject.h
--
-QtCore/qhash.h
--
-QtCore/qstring.h
--
-QtCore/qbuffer.h
--
-QtCore/qpointer.h
--
-sys/types.h
--
-
 /usr/include/qt4/QtGui/qwidget.h
 QtGui/qwindowdefs.h
 -
@@ -1070,9 +868,5 @@ QtCore/qglobal.h
 
 /usr/include/qt4/QtGui/qwmatrix.h
 QtGui/qmatrix.h
--
-
-/usr/include/qt4/QtGui/qx11info_x11.h
-QtCore/qnamespace.h
 -
 

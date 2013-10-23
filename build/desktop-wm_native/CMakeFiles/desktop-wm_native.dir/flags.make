@@ -4,5 +4,5 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS = -O3 -DNDEBUG -fPIC -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop -I/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtDBus -I/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/src -I/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-wm_native/src    -Wall
 
-CXX_DEFINES = -DDESKTOP_PLUGIN_DIR=\"/usr/local/lib/lxqt-desktop/\" -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -Ddesktop_wm_native_EXPORTS
+CXX_DEFINES = -DDESKTOP_PLUGIN_DIR=\"/usr/local/lib/lxqt-desktop/\" -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DRAZOR_ETC_XDG_DIRECTORY=\"/etc/qt4\" -Ddesktop_wm_native_EXPORTS
 

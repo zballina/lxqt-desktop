@@ -11,7 +11,7 @@ public:
     qtTranslator->load("qt_" + locale, QLibraryInfo::location(QLibraryInfo::TranslationsPath));
     qApp->installTranslator(qtTranslator);
     QTranslator *appTranslator = new QTranslator(qApp);
-    appTranslator->load(QString("/usr/local/share/razor/lxqt-desktop/lxqt-config-desktop/lxqt-config-desktop_%1.qm").arg(locale));
+    appTranslator->load(QString("/usr/local/share/lxqt/lxqt-desktop/lxqt-config-desktop/lxqt-config-desktop_%1.qm").arg(locale));
     qApp->installTranslator(appTranslator);
   }
 };

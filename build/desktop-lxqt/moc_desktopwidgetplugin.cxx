@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'desktopwidgetplugin.h'
 **
-** Created: Tue Oct 22 20:34:22 2013
+** Created: Tue Oct 22 23:56:40 2013
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!

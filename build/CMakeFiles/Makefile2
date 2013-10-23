@@ -113,11 +113,11 @@ config/preinstall:
 
 # All Build rule for target.
 config/CMakeFiles/UpdateTsFiles.dir/all: config/CMakeFiles/Update_lxqt-config-desktop.ts.src.dir/all
-config/CMakeFiles/UpdateTsFiles.dir/all: desktop-lxqt/CMakeFiles/Update_desktop-lxqt.ts.src.dir/all
 config/CMakeFiles/UpdateTsFiles.dir/all: desktop-lxqt/plugin-iconview/CMakeFiles/Update_iconview.ts.src.dir/all
+config/CMakeFiles/UpdateTsFiles.dir/all: desktop-lxqt/CMakeFiles/Update_desktop-lxqt.ts.src.dir/all
 config/CMakeFiles/UpdateTsFiles.dir/all: desktop-lxqt/plugin-helloworld/CMakeFiles/Update_helloworld.ts.src.dir/all
-config/CMakeFiles/UpdateTsFiles.dir/all: desktop-lxqt/plugin-notepad/CMakeFiles/Update_notepad.ts.src.dir/all
 config/CMakeFiles/UpdateTsFiles.dir/all: desktop-lxqt/plugin-analogclock/CMakeFiles/Update_analogclock.ts.src.dir/all
+config/CMakeFiles/UpdateTsFiles.dir/all: desktop-lxqt/plugin-notepad/CMakeFiles/Update_notepad.ts.src.dir/all
 	$(MAKE) -f config/CMakeFiles/UpdateTsFiles.dir/build.make config/CMakeFiles/UpdateTsFiles.dir/depend
 	$(MAKE) -f config/CMakeFiles/UpdateTsFiles.dir/build.make config/CMakeFiles/UpdateTsFiles.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles 

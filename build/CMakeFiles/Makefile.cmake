@@ -11,6 +11,7 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/2.8.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/2.8.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/2.8.10.2/CMakeSystem.cmake"
+  "../cmake/RazorInstallConfigPath.cmake"
   "../cmake/RazorLibSuffix.cmake"
   "../cmake/RazorTranslate.cmake"
   "../config/CMakeLists.txt"

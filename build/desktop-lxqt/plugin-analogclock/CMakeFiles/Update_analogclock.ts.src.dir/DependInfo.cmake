@@ -5,11 +5,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
 
 # Preprocessor definitions for this target.
 SET(CMAKE_TARGET_DEFINITIONS
+  "RAZOR_ETC_XDG_DIRECTORY=\"/etc/qt4\""
   "DESKTOP_PLUGIN_DIR=\"/usr/local/lib/lxqt-desktop/\""
   "QT_GUI_LIB"
   "QT_CORE_LIB"
   "TRANSLATIONS_DIR=\"/usr/local/share/lxqt/lxqt-desktop\""
   "PLUGIN_DESKTOP_FILES_DIR=\"/usr/local/share/lxqt/lxqt-desktop\""
+  "RAZOR_ETC_XDG_DIRECTORY=\"/etc/qt4\""
   "DESKTOP_PLUGIN_DIR=\"/usr/local/lib/lxqt-desktop/\""
   "QT_GUI_LIB"
   "QT_CORE_LIB"
