@@ -171,7 +171,7 @@ public:
         useDifferentWallpapersCheckBox->setText(QApplication::translate("BasicSettings", "Use different widgets and wallpapers for each virtual desktop", 0, QApplication::UnicodeUTF8));
         label_6->setText(QApplication::translate("BasicSettings", "Please note that this setting is not supported by all window managers!", 0, QApplication::UnicodeUTF8));
         wheelDesktopCheckBox->setText(QApplication::translate("BasicSettings", "Use mouse wheel for desktop changing", 0, QApplication::UnicodeUTF8));
-        label_5->setText(QApplication::translate("BasicSettings", "When enabled, razor-desktop will switch desktops (may conflict with selected window manager). When disabled, mouse wheel events are ignored by razor-desktop.", 0, QApplication::UnicodeUTF8));
+        label_5->setText(QApplication::translate("BasicSettings", "When enabled, lxqt-desktop will switch desktops (may conflict with selected window manager). When disabled, mouse wheel events are ignored by lxqt-desktop.", 0, QApplication::UnicodeUTF8));
         Q_UNUSED(BasicSettings);
     } // retranslateUi
 

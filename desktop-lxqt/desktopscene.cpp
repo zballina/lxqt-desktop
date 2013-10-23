@@ -378,7 +378,7 @@ QStringList DesktopScene::pluginDesktopDirs()
 {
     QStringList dirs;
     dirs << QString(getenv("RAZORQT_DESKTOP_PLUGINS_DIR")).split(':', QString::SkipEmptyParts);
-    dirs << QString("%1/%2").arg(XdgDirs::dataHome(), "/razor/razor-desktop");
+    dirs << QString("%1/%2").arg(XdgDirs::dataHome(), "/lxqt/lxqt-desktop");
     dirs << PLUGIN_DESKTOP_FILES_DIR;
     return dirs;
 }
