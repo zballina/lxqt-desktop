@@ -1,12 +1,12 @@
 [Desktop Entry]
-OnlyShowIn=Razor;
+OnlyShowIn=LXDE-Qt;
 Type=Application
-Exec=razor-config-desktop
+Exec=lxqt-config-desktop
 Terminal=false
-Categories=Settings;DesktopSettings;Qt;Razor;
+Categories=Settings;DesktopSettings;Qt;LXDE-Qt;
 Icon=preferences-desktop
-Name=Razor Desktop Configurator
-Comment=Configure Razor-Qt desktop module
-GenericName=Razor Desktop Configurator
+Name=LXDE-Qt Desktop Configurator
+Comment=Configure LXDE-Qt-Qt desktop module
+GenericName=LXDE-Qt Desktop Configurator
 
 #TRANSLATIONS_DIR=translations

@@ -43,7 +43,7 @@ int main (int argc, char* argv[])
     
     LxQt::Settings config("desktop");
     
-    QString configId(config.value("desktop", "razor").toString());
+    QString configId(config.value("desktop", "lxqt").toString());
     QString libraryFileName = QString("%1libdesktop-%2.so").arg(DESKTOP_PLUGIN_DIR).arg(configId);
 
     qDebug() << "RazorDesktop: try to load " << libraryFileName;

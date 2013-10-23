@@ -41,7 +41,7 @@ razor_translate_ts(razor-desktopcfg_QM_FILES
         ${razor-desktopcfg_SRCS}
         ${razor-desktopcfg_UIS}
     INSTALLATION_DIR
-        ${CMAKE_INSTALL_PREFIX}/share/razor/lxqt-desktop/lxqt-config-desktop
+        ${CMAKE_INSTALL_PREFIX}/share/lxqt/lxqt-desktop/lxqt-config-desktop
 )
 
 razor_translate_desktop(DESKTOP_FILES
