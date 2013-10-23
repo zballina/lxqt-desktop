@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/lxqt-desktop.dir/src/main.cpp.o CMakeFiles/lxqt-desktop.dir/src/razordesktopapplication.cpp.o  -o lxqt-desktop -rdynamic /usr/lib64/qt4/libQtCore.so /usr/lib64/qt4/libQtGui.so /usr/lib64/qt4/libQtXml.so /usr/lib64/qt4/libQtDBus.so -lX11 -llxqt -lqtxdg -Wl,-rpath,/usr/lib64/qt4: 

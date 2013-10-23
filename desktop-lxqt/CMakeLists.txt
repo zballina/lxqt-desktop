@@ -1,0 +1,84 @@
+cmake_minimum_required(VERSION 2.6)
+
+set(PLUGIN "lxqt")
+
+
+set(HEADERS
+  backgroundprovider.h
+  lxqtworkspace.h
+  workspacemanager.h
+  desktopbackgrounddialog.h
+  desktopwidgetplugin.h
+  desktopscene.h
+)
+
+set(SOURCES
+  workspacemanager.cpp
+  backgroundprovider.cpp
+  lxqtworkspace.cpp
+  desktopbackgrounddialog.cpp
+  desktopwidgetplugin.cpp
+  desktopscene.cpp
+)
+
+set(MOCS
+  backgroundprovider.h
+  lxqtworkspace.h
+  workspacemanager.h
+  desktopbackgrounddialog.h
+  desktopwidgetplugin.h
+  desktopscene.h
+)
+
+set(UIS
+    desktopbackgrounddialog.ui
+)
+
+# QRC files
+set(RESOURCES
+)
+
+
+file (GLOB CONFIG_FILES
+  resources/*.conf
+)
+
+
+#*******************************************
+set(PROJECT "desktop-${PLUGIN}")
+
+project(${PROJECT})
+
+qt4_wrap_cpp(MOC_SOURCES ${MOCS})
+qt4_add_resources(QRC_SOURCES ${RESOURCES})
+qt4_add_translation(QM_FILES ${TS_FILES})
+qt4_wrap_ui(UI_SOURCES ${UIS})
+
+# Translations **********************************
+include(RazorTranslate)
+razor_translate_ts(QM_FILES
+    SOURCES
+        ${HEADERS}
+        ${SOURCES}
+        ${UIS}
+    INSTALLATION_DIR
+        ${CMAKE_INSTALL_PREFIX}/share/lxqt/lxqt-desktop
+)
+add_definitions(-DTRANSLATIONS_DIR=\"${CMAKE_INSTALL_PREFIX}/share/lxqt/lxqt-desktop\")
+#************************************************
+
+include_directories( ${CMAKE_CURRENT_BINARY_DIR} )
+
+add_definitions(-DPLUGIN_DESKTOP_FILES_DIR=\"${CMAKE_INSTALL_PREFIX}/share/lxqt/lxqt-desktop\")
+
+add_library(${PROJECT} SHARED ${HEADERS} ${SOURCES} ${MOC_SOURCES} ${QM_FILES} ${QRC_SOURCES} ${UI_SOURCES} ${QM_FILES})
+add_dependencies(${PROJECT} lxqt)
+target_link_libraries(${PROJECT} ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY} ${X11_X11_LIB} lxqt)
+
+install(TARGETS ${PROJECT} DESTINATION ${DESKTOP_PLUGIN_DIR})
+
+add_subdirectory( plugin-helloworld )
+add_subdirectory( plugin-iconview )
+#add_subdirectory( plugin-iconview1 )
+add_subdirectory( plugin-analogclock )
+add_subdirectory( plugin-notepad )

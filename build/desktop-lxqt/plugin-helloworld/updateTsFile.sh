@@ -1,0 +1,5 @@
+#/bin/sh
+
+mkdir -p /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-lxqt/plugin-helloworld/translations 2>/dev/null
+cd /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-lxqt/plugin-helloworld/translations && /usr/bin/lupdate -locations none -target-language en_US  /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-lxqt/plugin-helloworld/helloworld.h /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-lxqt/plugin-helloworld/helloworld.cpp -ts /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-lxqt/plugin-helloworld/translations/helloworld.ts.src.ts &&mv /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-lxqt/plugin-helloworld/translations/helloworld.ts.src.ts /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-lxqt/plugin-helloworld/translations/helloworld.ts.src
+grep -q 'source' '/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-lxqt/plugin-helloworld/translations/helloworld.ts.src' || rm '/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/desktop-lxqt/plugin-helloworld/translations/helloworld.ts.src'

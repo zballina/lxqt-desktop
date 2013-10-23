@@ -1,0 +1,16 @@
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/config/CMakeFiles/UpdateTsFiles.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/config/CMakeFiles/UpdateTxFile.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-lxqt/plugin-analogclock/CMakeFiles/Update_analogclock.ts.src.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-lxqt/CMakeFiles/Update_desktop-lxqt.ts.src.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-lxqt/plugin-helloworld/CMakeFiles/Update_helloworld.ts.src.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-lxqt/plugin-iconview/CMakeFiles/Update_iconview.ts.src.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/config/CMakeFiles/Update_lxqt-config-desktop.ts.src.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-lxqt/plugin-notepad/CMakeFiles/Update_notepad.ts.src.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-lxqt/plugin-analogclock/CMakeFiles/analogclock.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-lxqt/CMakeFiles/desktop-lxqt.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-wm_native/CMakeFiles/desktop-wm_native.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-lxqt/plugin-helloworld/CMakeFiles/helloworld.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-lxqt/plugin-iconview/CMakeFiles/iconview.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/config/CMakeFiles/lxqt-config-desktop.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/lxqt-desktop.dir
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/desktop-lxqt/plugin-notepad/CMakeFiles/notepad.dir

@@ -1,0 +1,19 @@
+[Desktop Entry]
+OnlyShowIn=Razor;
+Type=Application
+Exec=razor-config-desktop
+Terminal=false
+Categories=Settings;DesktopSettings;Qt;Razor;
+Icon=preferences-desktop
+Name=Razor Desktop Configurator
+Comment=Configure Razor-Qt desktop module
+GenericName=Razor Desktop Configurator
+
+#TRANSLATIONS_DIR=translations
+
+
+# Translations
+Comment[de]=Konfiguration der Razor-Qt Arbeitsflächen Module
+GenericName[de]=Razor Arbeitsflächen Einstellungen
+Name[de]=Razor Arbeitsflächen Einstellungen
+Icon[de]=preferences-desktop

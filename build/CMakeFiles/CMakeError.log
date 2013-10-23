@@ -1,0 +1,90 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec555107211/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec555107211.dir/build.make CMakeFiles/cmTryCompileExec555107211.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec555107211.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec555107211.dir/CheckSymbolExists.cxx.o -c /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: En la función ‘int main(int, char**)’:
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ no se declaró en este ámbito
+gmake[1]: *** [CMakeFiles/cmTryCompileExec555107211.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec555107211/fast] Error 2
+
+File /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2414240992/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2414240992.dir/build.make CMakeFiles/cmTryCompileExec2414240992.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2414240992.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2414240992.dir/CheckSymbolExists.cxx.o -c /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: En la función ‘int main(int, char**)’:
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ no se declaró en este ámbito
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2414240992.dir/CheckSymbolExists.cxx.o] Error 1
+gmake: *** [cmTryCompileExec2414240992/fast] Error 2
+
+File /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec834087071/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec834087071.dir/build.make CMakeFiles/cmTryCompileExec834087071.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec834087071.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec834087071.dir/CheckSymbolExists.cxx.o -c /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: En la función ‘int main(int, char**)’:
+/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ no se declaró en este ámbito
+gmake[1]: *** [CMakeFiles/cmTryCompileExec834087071.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec834087071/fast] Error 2
+
+File /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

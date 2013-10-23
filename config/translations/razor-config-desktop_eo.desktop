@@ -1,0 +1,19 @@
+[Desktop Entry]
+OnlyShowIn=Razor;
+Type=Application
+Exec=razor-config-desktop
+Terminal=false
+Categories=Settings;DesktopSettings;Qt;Razor;
+Icon=preferences-desktop
+Name=Razor Desktop Configurator
+Comment=Configure Razor-Qt desktop module
+GenericName=Razor Desktop Configurator
+
+#TRANSLATIONS_DIR=translations
+
+
+# Translations
+Comment[eo]=Agordi modulon de labortablo Razor-Qt
+GenericName[eo]=Agordilo de labortablo Razor
+Name[eo]=Agordilo de labortablo Razor
+Icon[eo]=preferences-desktop

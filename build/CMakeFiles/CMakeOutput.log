@@ -1,0 +1,362 @@
+The system is: Linux - 3.10.7-gentoo-r1 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/2.8.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/2.8.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec804527353/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec804527353.dir/build.make CMakeFiles/cmTryCompileExec804527353.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec804527353.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec804527353.dir/testCCompiler.c.o   -c /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec804527353
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec804527353.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec804527353.dir/testCCompiler.c.o  -o cmTryCompileExec804527353 -rdynamic 
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2004971790/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2004971790.dir/build.make CMakeFiles/cmTryCompileExec2004971790.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2004971790.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2004971790.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2004971790
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2004971790.dir/link.txt --verbose=1
+/usr/bin/cc       -v CMakeFiles/cmTryCompileExec2004971790.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2004971790 -rdynamic  
+Usando especificaciones internas.
+COLLECT_GCC=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3/gcc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/lto-wrapper
+Objetivo: x86_64-pc-linux-gnu
+Configurado con: /var/tmp/portage/sys-devel/gcc-4.7.3-r1/work/gcc-4.7.3/configure --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include/g++-v4 --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --disable-altivec --disable-fixed-point --without-cloog --without-ppl --disable-lto --enable-nls --without-included-gettext --with-system-zlib --enable-obsolete --disable-werror --enable-secureplt --enable-multilib --with-multilib-list=m32,m64 --enable-libmudflap --disable-libssp --enable-libgomp --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/python --enable-checking=release --disable-libgcj --enable-libstdcxx-time --enable-languages=c,c++,fortran --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-targets=all --with-bugurl=http://bugs.gentoo.org/ --with-pkgversion='Gentoo 4.7.3-r1 p1.3, pie-0.5.5'
+Modelo de hilos: posix
+gcc versión 4.7.3 (Gentoo 4.7.3-r1 p1.3, pie-0.5.5) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2004971790' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2004971790 /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../.. CMakeFiles/cmTryCompileExec2004971790.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crtn.o
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2004971790/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2004971790.dir/build.make CMakeFiles/cmTryCompileExec2004971790.dir/build]
+  ignore line: [gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2004971790.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2004971790.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2004971790]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2004971790.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc       -v CMakeFiles/cmTryCompileExec2004971790.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2004971790 -rdynamic  ]
+  ignore line: [Usando especificaciones internas.]
+  ignore line: [COLLECT_GCC=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/lto-wrapper]
+  ignore line: [Objetivo: x86_64-pc-linux-gnu]
+  ignore line: [Configurado con: /var/tmp/portage/sys-devel/gcc-4.7.3-r1/work/gcc-4.7.3/configure --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include/g++-v4 --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --disable-altivec --disable-fixed-point --without-cloog --without-ppl --disable-lto --enable-nls --without-included-gettext --with-system-zlib --enable-obsolete --disable-werror --enable-secureplt --enable-multilib --with-multilib-list=m32,m64 --enable-libmudflap --disable-libssp --enable-libgomp --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/python --enable-checking=release --disable-libgcj --enable-libstdcxx-time --enable-languages=c,c++,fortran --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-targets=all --with-bugurl=http://bugs.gentoo.org/ --with-pkgversion='Gentoo 4.7.3-r1 p1.3, pie-0.5.5']
+  ignore line: [Modelo de hilos: posix]
+  ignore line: [gcc versión 4.7.3 (Gentoo 4.7.3-r1 p1.3, pie-0.5.5) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2004971790' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2004971790 /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../.. CMakeFiles/cmTryCompileExec2004971790.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2004971790] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../..]
+    arg [CMakeFiles/cmTryCompileExec2004971790.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3]
+  collapse dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64] ==> [/usr/lib64]
+  collapse dir [/lib/../lib64] ==> [/lib64]
+  collapse dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+  collapse dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/usr/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4099563275/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4099563275.dir/build.make CMakeFiles/cmTryCompileExec4099563275.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4099563275.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4099563275.dir/testCXXCompiler.cxx.o -c /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4099563275
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4099563275.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec4099563275.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4099563275 -rdynamic 
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec853992991/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec853992991.dir/build.make CMakeFiles/cmTryCompileExec853992991.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec853992991.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec853992991.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec853992991
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec853992991.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec853992991.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec853992991 -rdynamic  
+Usando especificaciones internas.
+COLLECT_GCC=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/lto-wrapper
+Objetivo: x86_64-pc-linux-gnu
+Configurado con: /var/tmp/portage/sys-devel/gcc-4.7.3-r1/work/gcc-4.7.3/configure --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include/g++-v4 --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --disable-altivec --disable-fixed-point --without-cloog --without-ppl --disable-lto --enable-nls --without-included-gettext --with-system-zlib --enable-obsolete --disable-werror --enable-secureplt --enable-multilib --with-multilib-list=m32,m64 --enable-libmudflap --disable-libssp --enable-libgomp --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/python --enable-checking=release --disable-libgcj --enable-libstdcxx-time --enable-languages=c,c++,fortran --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-targets=all --with-bugurl=http://bugs.gentoo.org/ --with-pkgversion='Gentoo 4.7.3-r1 p1.3, pie-0.5.5'
+Modelo de hilos: posix
+gcc versión 4.7.3 (Gentoo 4.7.3-r1 p1.3, pie-0.5.5) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec853992991' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec853992991 /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../.. CMakeFiles/cmTryCompileExec853992991.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crtn.o
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec853992991/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec853992991.dir/build.make CMakeFiles/cmTryCompileExec853992991.dir/build]
+  ignore line: [gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec853992991.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec853992991.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec853992991]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec853992991.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec853992991.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec853992991 -rdynamic  ]
+  ignore line: [Usando especificaciones internas.]
+  ignore line: [COLLECT_GCC=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/lto-wrapper]
+  ignore line: [Objetivo: x86_64-pc-linux-gnu]
+  ignore line: [Configurado con: /var/tmp/portage/sys-devel/gcc-4.7.3-r1/work/gcc-4.7.3/configure --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include/g++-v4 --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --disable-altivec --disable-fixed-point --without-cloog --without-ppl --disable-lto --enable-nls --without-included-gettext --with-system-zlib --enable-obsolete --disable-werror --enable-secureplt --enable-multilib --with-multilib-list=m32,m64 --enable-libmudflap --disable-libssp --enable-libgomp --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/python --enable-checking=release --disable-libgcj --enable-libstdcxx-time --enable-languages=c,c++,fortran --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-targets=all --with-bugurl=http://bugs.gentoo.org/ --with-pkgversion='Gentoo 4.7.3-r1 p1.3, pie-0.5.5']
+  ignore line: [Modelo de hilos: posix]
+  ignore line: [gcc versión 4.7.3 (Gentoo 4.7.3-r1 p1.3, pie-0.5.5) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec853992991' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec853992991 /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../.. CMakeFiles/cmTryCompileExec853992991.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec853992991] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../..]
+    arg [CMakeFiles/cmTryCompileExec853992991.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3]
+  collapse dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64] ==> [/usr/lib64]
+  collapse dir [/lib/../lib64] ==> [/lib64]
+  collapse dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+  collapse dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/usr/lib]
+
+
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1571420337/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1571420337.dir/build.make CMakeFiles/cmTryCompileExec1571420337.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1571420337.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1571420337.dir/CheckSymbolExists.cxx.o -c /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec1571420337
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1571420337.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec1571420337.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1571420337 -rdynamic 
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+
+File /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec881391949/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec881391949.dir/build.make CMakeFiles/cmTryCompileExec881391949.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec881391949.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec881391949.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec881391949
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec881391949.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec881391949.dir/CheckFunctionExists.c.o  -o cmTryCompileExec881391949 -rdynamic -lX11 -lXext 
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2536369661/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2536369661.dir/build.make CMakeFiles/cmTryCompileExec2536369661.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2536369661.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec2536369661.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2536369661
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2536369661.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec2536369661.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2536369661 -rdynamic 
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3805801412/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3805801412.dir/build.make CMakeFiles/cmTryCompileExec3805801412.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3805801412.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec3805801412.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3805801412
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3805801412.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec3805801412.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3805801412 -rdynamic 
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec313475366/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec313475366.dir/build.make CMakeFiles/cmTryCompileExec313475366.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec313475366.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec313475366.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec313475366
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec313475366.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec313475366.dir/CheckFunctionExists.c.o  -o cmTryCompileExec313475366 -rdynamic 
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec352139056/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec352139056.dir/build.make CMakeFiles/cmTryCompileExec352139056.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec352139056.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec352139056.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec352139056
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec352139056.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec352139056.dir/CheckFunctionExists.c.o  -o cmTryCompileExec352139056 -rdynamic 
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1722709957/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1722709957.dir/build.make CMakeFiles/cmTryCompileExec1722709957.dir/build
+gmake[1]: se ingresa al directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1722709957.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec1722709957.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1722709957
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1722709957.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec1722709957.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1722709957 -rdynamic -lICE 
+gmake[1]: se sale del directorio `/home/francisco/Documentos/Desarrollo/lxde-qt/lxqt-desktop/build/CMakeFiles/CMakeTmp'
+
+
