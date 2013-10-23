@@ -74,7 +74,7 @@ void DesktopConfigWindow::closeEvent(QCloseEvent * event)
                             QMessageBox::Yes, QMessageBox::No)
         == QMessageBox::Yes)
     {
-        QProcess::execute("killall razor-desktop");
+        QProcess::execute("killall lxqt-desktop");
     }
 }
 

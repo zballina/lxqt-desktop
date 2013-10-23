@@ -12,12 +12,13 @@ find_package ( X11 REQUIRED )
 # additional cmake files
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake)
 
+include(RazorInstallConfigPath)
+add_definitions(-DRAZOR_ETC_XDG_DIRECTORY=\"${RAZOR_ETC_XDG_DIRECTORY}\")
 include(RazorLibSuffix)
 
 set (DESKTOP_PLUGIN_DIR ${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}/lxqt-desktop/)
 add_definitions(-DDESKTOP_PLUGIN_DIR=\"${DESKTOP_PLUGIN_DIR}\")
 message(STATUS "Desktop plugins location: ${DESKTOP_PLUGIN_DIR}")
-
 
 include ( ${QT_USE_FILE} )
 include_directories (
