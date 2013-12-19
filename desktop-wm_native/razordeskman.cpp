@@ -176,7 +176,7 @@ RazorDeskManager::RazorDeskManager(const QString & configId, LxQt::Settings * co
     if (finalPixmap.isEmpty() || !QFile::exists(finalPixmap))
     {
         //now we want to use the system default - we still need to find that one out though
-        finalPixmap = LxQt::razorTheme.desktopBackground();
+        finalPixmap = LxQt::LxQtTheme.desktopBackground();
         qDebug() << "trying to get system-defaults" << finalPixmap;
     }
 
